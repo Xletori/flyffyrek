@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    background: #0097a7;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid #00838f;
+}
+
+.btn:hover {
+    background: #00838f;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
